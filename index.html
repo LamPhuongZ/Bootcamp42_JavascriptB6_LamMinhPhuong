@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài tập buổi 5</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container text-center py-5">
+        <div class="content">
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item mx-1" role="presentation">
+                    <button class="nav-link active" id="pills-lesson1-tab" data-toggle="pill" data-target="#lesson1"
+                        type="button" role="tab" aria-controls="lesson1" aria-selected="true">Bài 1</button>
+                </li>
+
+                <li class="nav-item mx-1" role="presentation">
+                    <button class="nav-link" id="pills-lesson2-tab" data-toggle="pill" data-target="#lesson2"
+                        type="button" role="tab" aria-controls="lesson2" aria-selected="false">Bài 2</button>
+                </li>
+
+                <li class="nav-item mx-1" role="presentation">
+                    <button class="nav-link" id="pills-lesson3-tab" data-toggle="pill" data-target="#lesson3"
+                        type="button" role="tab" aria-controls="lesson3" aria-selected="false">Bài 3</button>
+                </li>
+
+                <li class="nav-item mx-1" role="presentation">
+                    <button class="nav-link" id="pills-lesson4-tab" data-toggle="pill" data-target="#lesson4"
+                        type="button" role="tab" aria-controls="lesson4" aria-selected="false">Bài 4</button>
+                </li>
+
+                <li class="nav-item mx-1" role="presentation">
+                    <button class="nav-link" id="pills-lesson5-tab" data-toggle="pill" data-target="#lesson5"
+                        type="button" role="tab" aria-controls="lesson5" aria-selected="false">Bài 5</button>
+                </li>
+
+                <li class="nav-item mx-1" role="presentation">
+                    <button class="nav-link" id="pills-lesson6-tab" data-toggle="pill" data-target="#lesson6"
+                        type="button" role="tab" aria-controls="lesson6" aria-selected="false">Bài 6</button>
+                </li>
+
+                <li class="nav-item mx-1" role="presentation">
+                    <button class="nav-link" id="pills-lesson7-tab" data-toggle="pill" data-target="#lesson7"
+                        type="button" role="tab" aria-controls="lesson7" aria-selected="false">Bài 7</button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+                <!-- Bài tập 1: Tìm số chẵn / lẻ nhỏ hơn 100 -->
+                <div class="tab-pane fade show active" id="lesson1" role="tabpanel" aria-labelledby="pills-lesson1-tab">
+                    <div class="row">
+                        <div class="col-sm-8 mx-auto">
+                            <div class="card">
+                                <div class="card-header bg-danger text-white text-center">Bài tập 1: Tìm số chẵn / lẻ
+                                    nhỏ hơn 100
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <button id="btn-shownumber" class="btn btn-danger">Xem kết quả</button>
+                                    </div>
+
+                                    <!-- Hiển thị kết quả -->
+                                    <div style="display: none;" class="text-center" id="result-shownumber">
+                                        <!-- Hiển thị -->
+                                        <p class="text-left mt-2" id="result-b1"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kết thúc bài tập 1 -->
+
+                <!-- Bài tập 2: Đếm số chia hết cho 3 -->
+                <div class="tab-pane fade" id="lesson2" role="tabpanel" aria-labelledby="pills-lesson2-tab">
+                    <!-- B1: Tạo hàng -->
+                    <div class="row">
+                        <div class="col-sm-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header bg-danger text-white text-center">Bài tập 2: Đếm số chia hết cho
+                                    3</div>
+
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <button id="btn-show" class="btn btn-danger">Xem kết quả</button>
+                                    </div>
+
+                                    <!-- Hiển thị kết quả -->
+                                    <div style="display: none;" class="text-center" id="result-show">
+                                        <!-- Hiển thị -->
+                                        <p class="mt-2" id="result-b2"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kết thúc bài tập 2 -->
+
+                <!-- Bài tập 3: Tìm số nguyên dương nhỏ nhất -->
+                <div class="tab-pane fade" id="lesson3" role="tabpanel" aria-labelledby="pills-lesson3-tab">
+                    <!-- B1: Tạo hàng -->
+                    <div class="row">
+                        <div class="col-sm-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header bg-danger text-white text-center">Bài tập 3: Tìm số nguyên dương
+                                    nhỏ nhất</div>
+
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <button id="btn-search" class="btn btn-danger">Xem kết quả</button>
+                                    </div>
+
+                                    <!-- Hiển thị kết quả -->
+                                    <div style="display: none;" class="text-center" id="result-search">
+                                        <!-- Hiển thị -->
+                                        <p class="mt-2" id="result-b3"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kết thúc bài tập 3 -->
+
+                <!-- Bài tập 4: Tính tổng -->
+                <div class="tab-pane fade" id="lesson4" role="tabpanel" aria-labelledby="pills-lesson4-tab">
+                    <!-- B1: Tạo hàng -->
+                    <div class="row">
+                        <div class="col-sm-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header bg-danger text-white text-center">Bài tập 4: Tính tổng</div>
+
+                                <div class="card-body">
+                                    <div class="form-group">
+                                        <input type="number" id="numberx" class="form-control"
+                                            placeholder="Nhập số x" />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="number" id="numbern" class="form-control"
+                                            placeholder="Nhập số n" />
+                                    </div>
+
+                                    <div class="text-center">
+                                        <button id="btn-sum" class="btn btn-danger">Tính tổng</button>
+                                    </div>
+
+                                    <!-- Hiển thị kết quả -->
+                                    <div style="display: none;" class="text-center" id="result-sum">
+                                        <!-- Hiển thị -->
+                                        <p class="mt-2" id="result-b4"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kết thúc bài tập 4 -->
+
+                <!-- Bài tập 5: Tính giai thừa -->
+                <div class="tab-pane fade" id="lesson5" role="tabpanel" aria-labelledby="pills-lesson5-tab">
+                    <!-- B1: Tạo hàng -->
+                    <div class="row">
+                        <div class="col-sm-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header bg-danger text-white text-center">Bài tập 5: Tính giai thừa
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="form-group">
+                                        <input type="number" id="number01" class="form-control"
+                                            placeholder="Nhập số n" />
+                                    </div>
+
+                                    <div class="text-center">
+                                        <button id="btn-calc" class="btn btn-danger">Tính</button>
+                                    </div>
+
+                                    <!-- Hiển thị kết quả -->
+                                    <div style="display: none;" class="text-center" id="result-calc">
+                                        <!-- Hiển thị -->
+                                        <p class="mt-2" id="result-b5"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kết thúc bài tập 5 -->
+
+                <!-- Bài tập 6: Tạo thẻ div -->
+                <div class="tab-pane fade" id="lesson6" role="tabpanel" aria-labelledby="pills-lesson6-tab">
+                    <!-- B1: Tạo hàng -->
+                    <div class="row">
+                        <div class="col-sm-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header bg-danger text-white text-center">Bài tập 6: Tạo thẻ div</div>
+                                <div class="card-body text-left">
+                                    <div class="text-center">
+                                        <button id="btn-div" class="btn btn-danger">Tạo thẻ</button>
+                                    </div>
+
+                                     <!-- Hiển thị kết quả -->
+                                     <div style="display: none;" class="text-center" id="result-div">
+                                        <!-- Hiển thị -->
+                                        <p class="mt-2 text-left" id="result-b6"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kết thúc bài tập 6 -->
+
+                <!-- Bài tập 7: In số nguyên tố -->
+                <div class="tab-pane fade" id="lesson7" role="tabpanel" aria-labelledby="pills-lesson7-tab">
+                    <!-- B1: Tạo hàng -->
+                    <div class="row">
+                        <div class="col-sm-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header bg-danger text-white text-center">Bài tập 7: In số nguyên tố
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="form-group">
+                                        <input type="number" id="prime" class="form-control" placeholder="Nhập số n" />
+                                    </div>
+
+                                    <div class="text-center">
+                                        <button id="btn-print" class="btn btn-danger">In số</button>
+                                    </div>
+
+                                    <!-- Hiển thị kết quả -->
+                                    <div style="display: none;" class="text-center" id="result-print">
+                                        <!-- Hiển thị -->
+                                        <p class="mt-2" id="result-b7"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kết thúc bài tập 7 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- My JS -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
