@@ -108,10 +108,8 @@ document.getElementById("btn-div").onclick = function () {
 // Bài tập 7: In số nguyên tố
 // hàm kiểm tra số nguyên tố
 function checkPrime(prime) {
-    // Biến cờ hiệu
     var flag = true;
 
-    // Nếu n bé hơn 2 tức là không phải số nguyên tố
     if (prime < 2) {
         flag = false;
     }
@@ -138,7 +136,6 @@ document.getElementById("btn-print").onclick = function () {
     let result = "";
 
     for (let index = 1; index <= prime; index++) {
-        // Nếu là số nguyên tố thì in ra
         if (checkPrime(index)) {
             result += index + " ";
         }
